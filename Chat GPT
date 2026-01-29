@@ -1,0 +1,38 @@
+Step 1: Write the given data
+Mass of block (m) = 10 kg
+Acceleration due to gravity (g) = 9.81 m/s²
+Coefficient of static friction (μₛ) = 0.2
+Applied horizontal force = 10 N
+
+Step 2: Find the normal reaction force
+
+(The block is on a horizontal floor, so normal = weight)
+
+Normal force (N) = m × g
+                 = 10 × 9.81
+                 = 98.1 N
+
+Step 3: Find the maximum static friction possible
+Maximum static friction (fₘₐₓ) = μₛ × N
+                               = 0.2 × 98.1
+                               = 19.62 N
+
+Step 4: Compare applied force with maximum static friction
+Applied force = 10 N
+Maximum static friction = 19.62 N
+
+
+Since:
+
+10 N < 19.62 N
+
+
+➡️ The block will not move
+➡️ Static friction adjusts itself to balance the applied force
+
+Step 5: Find the actual friction force
+Friction force = Applied force
+                = 10 N
+
+✅ Final Answer
+Magnitude of friction force on the block = 10 N
