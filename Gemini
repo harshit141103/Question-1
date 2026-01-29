@@ -1,45 +1,66 @@
-Based on the problem provided in the image, here is the step-by-step solution to find the magnitude of the force of friction.
+SOLUTIONS FOR UPLOADED PROBLEMS
 
-### **Problem Analysis**
+--- PROBLEM 1: SEMICONDUCTOR PHYSICS (image_42d698.png) ---
+Given:
+- Density (ρ) = 2.33 x 10^6 g/m³
+- Avogadro's Number (Na) = 6.02 x 10^23 atoms/g-atom
+- Atomic Weight (W) = 28.1
+- Intrinsic carrier density (ni) = 1.5 x 10^16 m⁻³
+- Electron mobility (μe) = 0.14 m²/V-s
+- Hole mobility (μh) = 0.05 m²/V-s
+- Electron charge (e) = 1.6 x 10⁻¹⁹ C
 
-* **Mass ():** 
-* **Acceleration due to gravity ():** 
-* **Coefficient of static friction ():** 
-* **Applied horizontal force ():** 
+Step 1: Calculate concentration of Silicon atoms (N)
+N = (ρ * Na) / W = (2.33 x 10^6 * 6.02 x 10^23) / 28.1
+N = 4.99 x 10^28 atoms/m³
 
-### **Step-by-Step Calculation**
+Step 2: Calculate relative concentration
+Relative concentration = N / ni = (4.99 x 10^28) / (1.5 x 10^16)
+Result = 3.33 x 10^12 silicon atoms per electron-hole pair
 
-```text
-Step 1: Calculate the Normal Force (N)
-The normal force for a block on a horizontal surface is equal to its weight.
-N = m * g
-N = 10 kg * 9.81 m/s^2
-N = 98.1 N
+Step 3: Calculate intrinsic resistivity (ρi)
+Conductivity (σi) = ni * e * (μe + μh)
+σi = (1.5 x 10^16) * (1.6 x 10⁻¹⁹) * (0.14 + 0.05)
+σi = 4.56 x 10⁻⁴ S/m
+ρi = 1 / σi = 1 / (4.56 x 10⁻⁴)
+Result = 2192.98 Ω-m
 
-Step 2: Calculate the Maximum Static Friction (f_limit)
-This is the "limiting friction," which is the maximum force the 
-surface can exert to prevent motion.
-f_limit = μs * N
-f_limit = 0.2 * 98.1 N
-f_limit = 19.62 N
+--- PROBLEM 2: RIGID RODS AND FRICTION (image_42cb54.png) ---
+Given:
+- Rod PR = 5 m, Rod RQ = 12 m
+- Impending slip at θ = 90°
 
-Step 3: Compare Applied Force with Limiting Friction
-- If Applied Force > Limiting Friction: The block moves (kinetic friction applies).
-- If Applied Force <= Limiting Friction: The block remains at rest.
+Step 1: Analyze geometry at θ = 90°
+The rods form a right triangle. PQ = sqrt(5² + 12²) = 13 m.
+Angle at P (α): sin(α) = 12/13, cos(α) = 5/13
+Angle at Q (β): sin(β) = 5/13, cos(β) = 12/13
 
-In this case:
-Applied Force (10 N) < Limiting Friction (19.62 N)
+Step 2: Equilibrium of forces
+Taking moments about Q for the whole system: NP * 13 = F * 12 => NP = 12F/13
+Taking moments about P for the whole system: NQ * 13 = F * 1  => NQ = 5F/13
+Horizontal force (H) at P and Q must be equal: H = NP * cot(α) = (12F/13) * (5/12) = 5F/13
 
-Step 4: Determine the Actual Friction Force
-Since the applied force is less than the maximum possible static friction, 
-the block does not move. In a state of static equilibrium, the 
-friction force must exactly equal the applied force to keep the 
-net force zero.
+Step 3: Find ratio μQ/μP
+At impending slip: μ = H/N
+μP = H / NP = (5F/13) / (12F/13) = 5/12
+μQ = H / NQ = (5F/13) / (5F/13) = 1 (Wait, H calculation check: H = NQ * cot(β) = (5F/13) * (12/5) = 12F/13)
+Correcting Horizontal thrust at R: H = (F * tanα * tanβ) / (tanα + tanβ) = 60F/169
+μP = H / NP = (60F/169) / (12F/13) = 5/13
+μQ = H / NQ = (60F/169) / (5F/13) = 12/13
+Ratio = μQ / μP = (12/13) / (5/13)
+Result = 2.40
 
+--- PROBLEM 3: BLOCK ON FLOOR (image_4269fd.png) ---
+Given:
+- m = 10 kg, g = 9.81 m/s², μs = 0.2, Applied Force (P) = 10 N
+
+Step 1: Calculate Normal Force (N)
+N = m * g = 10 * 9.81 = 98.1 N
+
+Step 2: Calculate Limiting Friction (f_limit)
+f_limit = μs * N = 0.2 * 98.1 = 19.62 N
+
+Step 3: Determine actual friction
+Since Applied Force (10 N) < Limiting Friction (19.62 N), the block is stationary.
 Friction Force = Applied Force
-Friction Force = 10 N
-
-```
-
-**Final Answer:**
-The magnitude of the force of friction on the block is ****.
+Result = 10 N
