@@ -1,0 +1,47 @@
+Alright, let's break this down systematically.  
+
+---
+
+## **Step 1: Identify known quantities**
+\[
+m = 10\ \text{kg}, \quad g = 9.81\ \text{m/s}^2
+\]
+\[
+\mu_s = 0.2, \quad F_{\text{applied}} = 10\ \text{N}
+\]
+
+---
+
+## **Step 2: Calculate maximum possible static friction**
+The normal force \( N \) for a horizontal surface:
+\[
+N = m g = 10 \times 9.81 = 98.1\ \text{N}
+\]
+Maximum static friction:
+\[
+f_{s,\text{max}} = \mu_s N = 0.2 \times 98.1
+\]
+\[
+f_{s,\text{max}} = 19.62\ \text{N}
+\]
+
+---
+
+## **Step 3: Compare applied force with \( f_{s,\text{max}} \)**
+Applied horizontal force \( F = 10\ \text{N} \) is **less than** \( 19.62\ \text{N} \).  
+So static friction will **exactly balance** the applied force to prevent motion.
+
+---
+
+## **Step 4: Determine actual static friction force**
+Since \( F \le f_{s,\text{max}} \):
+\[
+f_s = F_{\text{applied}} = 10\ \text{N}
+\]
+
+---
+
+## **Step 5: Final answer**
+\[
+\boxed{10}
+\]
