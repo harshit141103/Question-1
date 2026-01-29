@@ -1,0 +1,45 @@
+Based on the problem provided in the image, here is the step-by-step solution to find the magnitude of the force of friction.
+
+### **Problem Analysis**
+
+* **Mass ():** 
+* **Acceleration due to gravity ():** 
+* **Coefficient of static friction ():** 
+* **Applied horizontal force ():** 
+
+### **Step-by-Step Calculation**
+
+```text
+Step 1: Calculate the Normal Force (N)
+The normal force for a block on a horizontal surface is equal to its weight.
+N = m * g
+N = 10 kg * 9.81 m/s^2
+N = 98.1 N
+
+Step 2: Calculate the Maximum Static Friction (f_limit)
+This is the "limiting friction," which is the maximum force the 
+surface can exert to prevent motion.
+f_limit = μs * N
+f_limit = 0.2 * 98.1 N
+f_limit = 19.62 N
+
+Step 3: Compare Applied Force with Limiting Friction
+- If Applied Force > Limiting Friction: The block moves (kinetic friction applies).
+- If Applied Force <= Limiting Friction: The block remains at rest.
+
+In this case:
+Applied Force (10 N) < Limiting Friction (19.62 N)
+
+Step 4: Determine the Actual Friction Force
+Since the applied force is less than the maximum possible static friction, 
+the block does not move. In a state of static equilibrium, the 
+friction force must exactly equal the applied force to keep the 
+net force zero.
+
+Friction Force = Applied Force
+Friction Force = 10 N
+
+```
+
+**Final Answer:**
+The magnitude of the force of friction on the block is ****.
