@@ -1,0 +1,50 @@
+```
+Step 1: Identify the Given Information
+- Mass of block (m) = 10 kg
+- Acceleration due to gravity (g) = 9.81 m/s²
+- Coefficient of static friction (μₛ) = 0.2
+- Applied horizontal force (F) = 10 N
+```
+
+```
+Step 2: Calculate the Normal Force (N)
+Since the block is on a horizontal surface with no vertical acceleration:
+N = mg
+N = 10 kg × 9.81 m/s²
+N = 98.1 N
+```
+
+```
+Step 3: Calculate the Maximum Static Friction Force
+The maximum static friction force is:
+f_max = μₛ × N
+f_max = 0.2 × 98.1
+f_max = 19.62 N
+```
+
+```
+Step 4: Compare Applied Force with Maximum Static Friction
+Applied force (F) = 10 N
+Maximum static friction (f_max) = 19.62 N
+
+Since F < f_max:
+10 N < 19.62 N
+
+The block will NOT move (remains stationary)
+```
+
+```
+Step 5: Determine the Actual Friction Force
+Since the block is stationary, it's in equilibrium.
+The friction force must balance the applied force:
+
+f_friction = F_applied
+f_friction = 10 N
+```
+
+```
+Final Answer:
+The magnitude of the force of friction on the block is 10 N
+
+This is static friction that prevents the block from moving.
+```
